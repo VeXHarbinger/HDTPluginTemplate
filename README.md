@@ -3,7 +3,7 @@
 ## Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)
-![Display Example](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png)
+![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png)
 
 
 ## Helpful Plug-Ins
@@ -21,7 +21,7 @@ This project should help jump start your development of your own plug-in for the
   * Verify the project reference versions
 * Set Plug-in Assembly Version
 * Press Ctrl+w,t to see the ToDo list.  Make sure to delete any example functionality you don't want to keep 
-![Display Example](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/LibVersioning.jpg)
+![Versions](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/LibVersioning.jpg)
 
 
 ### Create a Build Event
@@ -38,9 +38,11 @@ if $(ConfigurationName) == Debug (
 
 You can attach your VS debugger to a running HDT session by pressing  Ctrl+Alt+P, then select HearthstoneDeckTracker from the list of running processes.
 You can press Shift-Alt-P to reattach to the process after the first debugging session to skip the selection window.
-![Display Example](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg)
+
+![Attach To Process](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg)
+
 Remember to click the Show Threads in Source (or ensure it's enabled) once the debugger starts  
-![Display Example](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png)
+![Show Threads In Source](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png)
 
 
 
