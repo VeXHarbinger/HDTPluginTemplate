@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="HDTPluginTemplate.75730f20-3245-475e-86db-ae8ad70b82be" Version="1.0" Language="en-US" Publisher="Alex Pearlstein" />
-    <DisplayName>HDTPluginTemplate</DisplayName>
-    <Description>Empty VSIX Project.</Description>
-    <Icon>Resources\Icon.png</Icon>
-    <PreviewImage>Resources\Icon.png</PreviewImage>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
-  </Installation>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-  </Assets>
+    <Metadata>
+        <Identity Id="HDTPluginTemplate.75730f20-3245-475e-86db-ae8ad70b82be" Version="1.0" Language="en-US" Publisher="Alex Pearlstein" />
+        <DisplayName>HDTPluginTemplate</DisplayName>
+        <Description xml:space="preserve">A Simple HDT Plug-in Project Template to help jump start your own creations.</Description>
+        <MoreInfo>https://github.com/VeXHarbinger/HDTPluginTemplate</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/VeXHarbinger/HDTPluginTemplate/wiki</GettingStartedGuide>
+        <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+        <Icon>HearthstoneDeckTrackerPluginTemplate.ico</Icon>
+        <PreviewImage>PluginProject.png</PreviewImage>
+        <Tags>C#, XAML, Hearthstone Deck Tracker, HDT,</Tags>
+        <Preview>true</Preview>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+    </Assets>
 </PackageManifest>
