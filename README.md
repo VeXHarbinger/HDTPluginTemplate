@@ -3,7 +3,7 @@
 ## Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)
-![Display Example](https://raw.githubusercontent.com/VeXHarbinger/HDTPluginTemplate/master/images/PluginDisplay.png)
+![Display Example](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png)
 
 
 ## Helpful Plug-Ins
