@@ -5,6 +5,28 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDTPluginTemplate", "HDTPluginTemplate\HDTPluginTemplate.csproj", "{70C5C7DE-E836-4E3F-9931-28F74B118FE7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A69B621C-65EB-4855-B18F-5BB866A3479E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		ReleaseNotes.txt = ReleaseNotes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7D71969C-392E-4E6D-BD32-8789F244E166}"
+	ProjectSection(SolutionItems) = preProject
+		Images\attachToProcess.jpg = Images\attachToProcess.jpg
+		Images\HDTMenuOption.png = Images\HDTMenuOption.png
+		Images\HDTOptionsPanel.png = Images\HDTOptionsPanel.png
+		Images\HearthstoneDeckTrackerPluginTemplate.ico = Images\HearthstoneDeckTrackerPluginTemplate.ico
+		Images\HFTCIcon.ico = Images\HFTCIcon.ico
+		Images\Icon.png = Images\Icon.png
+		Images\LibVersioning.jpg = Images\LibVersioning.jpg
+		Images\NewProject.png = Images\NewProject.png
+		Images\PluginDisplay.png = Images\PluginDisplay.png
+		Images\PluginProject.png = Images\PluginProject.png
+		Images\PluginSettings.png = Images\PluginSettings.png
+		Images\ShowThreadsInSource.png = Images\ShowThreadsInSource.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +52,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D71969C-392E-4E6D-BD32-8789F244E166} = {A69B621C-65EB-4855-B18F-5BB866A3479E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {432D1E49-FB22-48C4-B715-3635219B4FA0}
