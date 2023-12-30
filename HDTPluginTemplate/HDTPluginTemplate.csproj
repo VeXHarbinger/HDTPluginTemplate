@@ -5,7 +5,7 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\HDTIcon.ico</ApplicationIcon>
+    <ApplicationIcon>HFTCIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -56,8 +56,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HFTCIcon.ico" />
     <Content Include="ReleaseNotes.txt" />
-    <Content Include="Resources\attachToProcess.jpg" />
+    <Content Include="Resources\AttachToProcess.jpg" />
     <Content Include="Resources\HDTIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -80,6 +81,7 @@
     <Content Include="Resources\PluginProject.png" />
     <Content Include="Resources\PluginSettings.png" />
     <Content Include="Resources\ShowThreadsInSource.png" />
+    <Content Include="Resources\Wormhole.png" />
     <None Include="ProjectTemplate\HTDPluginTemplate.zip" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>

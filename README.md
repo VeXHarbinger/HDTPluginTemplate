@@ -1,11 +1,10 @@
-# Preface
-
-## Purpose
+# Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
 
 ![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png "Example Plug-In Display")
 
+## How To
 
 ## Helpful Plug-Ins
 
@@ -70,6 +69,9 @@ What to remember to do when publishing
 ## Acknowledgments
 
 Wanted to say thanks for the great work they did to pave the way for me.  
+ * @RedHatter thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
+ * @realchriscasey for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
+
 
 # Stats
 
