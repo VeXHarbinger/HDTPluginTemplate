@@ -42,13 +42,11 @@ This project should help jump start your development of your own plug-in for the
 You can attach your VS debugger to a running HDT session by pressing  Ctrl+Alt+P, then select HearthstoneDeckTracker from the list of running processes.  
 You can press Shift-Alt-P to reattach to the process after the first debugging session to skip the selection window.  
 
-![Attach To Process]
-(https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg)  
+![Attach To Process](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg)  
 
 **Remember** to click the Show Threads in Source (or ensure it's enabled) once the debugger starts  
 
-![Show Threads In Source]
-(https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png)  
+![Show Threads In Source](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png)  
 
 
 
