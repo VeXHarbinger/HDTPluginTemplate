@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7D71969C-392E-4E6D-BD32-8789F244E166}"
 	ProjectSection(SolutionItems) = preProject
-		Images\attachToProcess.jpg = Images\attachToProcess.jpg
+		Images\AttachToProcess.jpg = Images\AttachToProcess.jpg
 		Images\HDTMenuOption.png = Images\HDTMenuOption.png
 		Images\HDTOptionsPanel.png = Images\HDTOptionsPanel.png
 		Images\HearthstoneDeckTrackerPluginTemplate.ico = Images\HearthstoneDeckTrackerPluginTemplate.ico
@@ -25,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7D7196
 		Images\PluginProject.png = Images\PluginProject.png
 		Images\PluginSettings.png = Images\PluginSettings.png
 		Images\ShowThreadsInSource.png = Images\ShowThreadsInSource.png
+		HDTPluginTemplate\Resources\Wormhole.png = HDTPluginTemplate\Resources\Wormhole.png
 	EndProjectSection
 EndProject
 Global

@@ -1,13 +1,16 @@
 # Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
+Once you create a new project, you should be 100% ready to test the default functionality.
+By just seeing this basic window pop-up should help you begin your development with confidence.  
 
 ![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png "Example Plug-In Display")
 
-## How To
 
-## Helpful Plug-Ins
 
+# Helpful Plug-Ins
+
+These are just a few tools that should help you on your journey.  
  * [MarkdownEditor2](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2), which will also help you can read this easier in the IDE.  
  * [XAMLStyler](https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler)  
  * [OpenInExplorer](https://marketplace.visualstudio.com/items?itemName=Charles-Ant.OpenInExplorer2022)  
@@ -15,9 +18,16 @@ This project should help jump start your development of your own plug-in for the
 
 #  Development
 
+## Create a new project
+
+After you install the VSIX the template will be available when you create a new project.  You can type HDT in the filter box to find it.  
+
+![New HDT Project](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/NewProject.png "Create a new HDT project")  
+
+
 ## Configuration
 
-* Get Latest versions of HDT and HearthDb  
+* Maker sure to get the latest versions of HDT and HearthDb  
   * Copy them to the lib folder  
   * Verify the project reference versions  
 * Set Plug-in Assembly Version  

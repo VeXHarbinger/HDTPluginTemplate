@@ -8,8 +8,8 @@
         <License>LICENSE.txt</License>
         <GettingStartedGuide>https://github.com/VeXHarbinger/HDTPluginTemplate/wiki</GettingStartedGuide>
         <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
-        <Icon>HearthstoneDeckTrackerPluginTemplate.ico</Icon>
-        <PreviewImage>PluginProject.png</PreviewImage>
+        <Icon>Resources\HFTCIcon.ico</Icon>
+        <PreviewImage>Resources\PluginDisplay.png</PreviewImage>
         <Tags>C#, XAML, Hearthstone Deck Tracker, HDT,</Tags>
         <Preview>true</Preview>
     </Metadata>
