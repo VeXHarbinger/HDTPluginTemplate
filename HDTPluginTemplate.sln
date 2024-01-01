@@ -25,7 +25,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7D7196
 		Images\PluginProject.png = Images\PluginProject.png
 		Images\PluginSettings.png = Images\PluginSettings.png
 		Images\ShowThreadsInSource.png = Images\ShowThreadsInSource.png
-		HDTPluginTemplate\Resources\Wormhole.png = HDTPluginTemplate\Resources\Wormhole.png
 	EndProjectSection
 EndProject
 Global

@@ -51,7 +51,7 @@ You can press `Shift+Alt+P` to reattach to the process after the first debugging
 
 ![Attach To Process](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg "Attach To Process")  
 
-**Remember** to click the Show Threads in Source (or ensure it's enabled) once the debugger starts  
+**Remember** to click the Show Threads in Source (or ensure it's enabled) once the debugger starts so that you can hit your break points  
 
 ![Show Threads In Source](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png "Show Threads In Source Is Enabled")  
 

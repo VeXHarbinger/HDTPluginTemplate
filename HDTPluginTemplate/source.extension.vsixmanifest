@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="HDTPluginTemplate.75730f20-3245-475e-86db-ae8ad70b82be" Version="1.0" Language="en-US" Publisher="Alex Pearlstein" />
+        <Identity Id="HDTPluginTemplate.f1645e9e-1e1d-4197-ba4b-9241f931307f" Version="0.7.1" Language="en-US" Publisher="High Falootin Technology Corporation" />
         <DisplayName>HDTPluginTemplate</DisplayName>
         <Description xml:space="preserve">A Simple HDT Plug-in Project Template to help jump start your own creations.</Description>
         <MoreInfo>https://github.com/VeXHarbinger/HDTPluginTemplate</MoreInfo>
         <License>LICENSE.txt</License>
         <GettingStartedGuide>https://github.com/VeXHarbinger/HDTPluginTemplate/wiki</GettingStartedGuide>
         <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
-        <Icon>Resources\HFTCIcon.ico</Icon>
-        <PreviewImage>Resources\PluginDisplay.png</PreviewImage>
+        <Icon>Images\Icon.png</Icon>
+        <PreviewImage>Images\PluginDisplay.png</PreviewImage>
         <Tags>C#, XAML, Hearthstone Deck Tracker, HDT,</Tags>
         <Preview>true</Preview>
     </Metadata>
@@ -28,5 +28,7 @@
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\HDTPluginTemplate.zip" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
     </Assets>
 </PackageManifest>
