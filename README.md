@@ -2,10 +2,11 @@
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
 Once you create a new project, you should be 100% ready to test the default functionality.
-By just seeing this basic window pop-up should help you begin your development with confidence.  
+Just seeing this basic window pop-up should help you begin your development with confidence.  
 
 ![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png "Example Plug-In Display")
 
+The example functionality shows the card name and artist name when you mouse over a card in your hand.  
 
 
 # Helpful Plug-Ins
