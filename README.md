@@ -79,7 +79,7 @@ What to remember to do when publishing
 
 Wanted to say thanks for the great work they did to pave the way for me.  
  * [@RedHatter](https://github.com/RedHatter) thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
- * @realchriscasey for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
+ * [@realchriscasey](https://github.com/realchriscasey) for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
 
 
 # Stats
