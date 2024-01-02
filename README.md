@@ -28,7 +28,7 @@ After you install the VSIX the template will be available when you create a new 
 
 ## Configuration
 
-* Maker sure to get the latest versions of HDT and HearthDb  
+* It does come with the lib files but you should make sure to get the latest versions of HDT and HearthDb  
   * Copy them to the lib folder  
   * Verify the project reference versions  
 * Set Plug-in Assembly Version  
@@ -43,7 +43,7 @@ After you install the VSIX the template will be available when you create a new 
   This way you can just do a debug build and then fire up your HDT to test it out.  
   **Remember**, you have to restart HDT after you build a new .dll to clean out the old version from the session memory.  
 
-`if $(ConfigurationName) == Debug (copy "$(TargetDir)$(ProjectName).*" "\HearthstoneDeckTracker\Plug-ins" /y)`  
+`if $(ConfigurationName) == Debug (copy "$(TargetDir)$(ProjectName).*" "%AppData%\HearthstoneDeckTracker\Plugins" /y  )`  
 
 ## Debugging 
 
