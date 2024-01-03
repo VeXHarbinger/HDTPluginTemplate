@@ -1,10 +1,12 @@
 # Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
+Once you create a new project, you should be 100% ready to test the default functionality.
+Just seeing this basic window pop-up should help you begin your development with confidence.  
 
 ![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png "Example Plug-In Display")
 
-## How To
+The example functionality shows the card name and artist name when you mouse over a card in your hand.  
 
 ## Helpful Plug-Ins
 
@@ -17,7 +19,7 @@ This project should help jump start your development of your own plug-in for the
 
 ## Configuration
 
-* Get Latest versions of HDT and HearthDb  
+* It does come with the lib files but you should make sure to get the latest versions of HDT and HearthDb  
   * Copy them to the lib folder  
   * Verify the project reference versions  
 * Set Plug-in Assembly Version  
@@ -74,11 +76,11 @@ What to remember to do when publishing
 ## Acknowledgments
 
 Wanted to say thanks for the great work they did to pave the way for me.  
- * @RedHatter thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
- * @realchriscasey for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
+ * [@RedHatter](https://github.com/RedHatter) thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
+ * [@realchriscasey](https://github.com/realchriscasey) for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
 
 
 # Stats
 
 [![GitHub Latest](https://img.shields.io/github/release/VeXHarbinger/HDTPluginTemplate.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases/latest)
-[![Github All Downloads](https://img.shields.io/github/downloads/VeXHarbinger/HDTPluginTemplate/total.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases)
+[![GitHub All Downloads](https://img.shields.io/github/downloads/VeXHarbinger/HDTPluginTemplate/total.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases)
