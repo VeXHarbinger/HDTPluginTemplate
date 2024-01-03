@@ -1,16 +1,13 @@
 # Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
-Once you create a new project, you should be 100% ready to test the default functionality.
-By just seeing this basic window pop-up should help you begin your development with confidence.  
 
 ![Example Plug-In Display](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/PluginDisplay.png "Example Plug-In Display")
 
+## How To
 
+## Helpful Plug-Ins
 
-# Helpful Plug-Ins
-
-These are just a few tools that should help you on your journey.  
  * [MarkdownEditor2](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2), which will also help you can read this easier in the IDE.  
  * [XAMLStyler](https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler)  
  * [OpenInExplorer](https://marketplace.visualstudio.com/items?itemName=Charles-Ant.OpenInExplorer2022)  
@@ -18,20 +15,13 @@ These are just a few tools that should help you on your journey.
 
 #  Development
 
-## Create a new project
-
-After you install the VSIX the template will be available when you create a new project.  You can type HDT in the filter box to find it.  
-
-![New HDT Project](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/NewProject.png "Create a new HDT project")  
-
-
 ## Configuration
 
-* Maker sure to get the latest versions of HDT and HearthDb  
+* Get Latest versions of HDT and HearthDb  
   * Copy them to the lib folder  
   * Verify the project reference versions  
 * Set Plug-in Assembly Version  
-* Press `Ctrl+W,T` to see the ToDo list.  Make sure to delete any example functionality you don't want to keep  
+* Press Ctrl+w,t to see the ToDo list.  Make sure to delete any example functionality you don't want to keep  
 
 ![Versions](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/LibVersioning.jpg "Checking Versions")
 
@@ -42,19 +32,26 @@ After you install the VSIX the template will be available when you create a new 
   This way you can just do a debug build and then fire up your HDT to test it out.  
   **Remember**, you have to restart HDT after you build a new .dll to clean out the old version from the session memory.  
 
-`if $(ConfigurationName) == Debug (copy "$(TargetDir)$(ProjectName).*" "\HearthstoneDeckTracker\Plug-ins" /y)`  
+`if $(ConfigurationName) == Debug (  
+   copy "$(TargetDir)$(ProjectName).*" "%AppData%\HearthstoneDeckTracker\Plugins" /y  
+)`  
 
 ## Debugging 
 
-You can attach your VS debugger to a running HDT session by pressing  `Ctrl+Alt+P`, then select HearthstoneDeckTracker from the list of running processes.  
-You can press `Shift+Alt+P` to reattach to the process after the first debugging session to skip the selection window.  
+You can attach your VS debugger to a running HDT session by pressing  Ctrl+Alt+P, then select HearthstoneDeckTracker from the list of running processes.  
+You can press Shift-Alt-P to reattach to the process after the first debugging session to skip the selection window.  
 
 ![Attach To Process](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg "Attach To Process")  
 
-**Remember** to click the Show Threads in Source (or ensure it's enabled) once the debugger starts so that you can hit your break points  
+**Remember** to click the Show Threads in Source (or ensure it's enabled) once the debugger starts  
 
 ![Show Threads In Source](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/ShowThreadsInSource.png "Show Threads In Source Is Enabled")  
 
+
+## Localization
+
+In the `StringsResource.resx` file you can enter the user visible text that should be translated.  
+[AutoResxTranslator](https://github.com/salarcode/AutoResxTranslator) is an amazing and helpful tool.  
 
 
 ## Publishing
@@ -77,11 +74,11 @@ What to remember to do when publishing
 ## Acknowledgments
 
 Wanted to say thanks for the great work they did to pave the way for me.  
- * [@RedHatter](https://github.com/RedHatter) thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
+ * @RedHatter thanks to the [Graveyard](https://github.com/RedHatter/Graveyard) Plug-In  
  * @realchriscasey for the [Trouble at the Mill](https://github.com/realchriscasey/TroubleAtTheMill/) Plug-In  
 
 
 # Stats
 
 [![GitHub Latest](https://img.shields.io/github/release/VeXHarbinger/HDTPluginTemplate.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases/latest)
-[![GitHub All Downloads](https://img.shields.io/github/downloads/VeXHarbinger/HDTPluginTemplate/total.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases)
+[![Github All Downloads](https://img.shields.io/github/downloads/VeXHarbinger/HDTPluginTemplate/total.svg)](https://github.com/VeXHarbinger/HDTPluginTemplate/releases)

@@ -9,9 +9,9 @@ namespace HDTPluginTemplate
     {
         public const string Id = "HDTPluginTemplate.df4363e5-555c-412f-ac91-d729485bb5b0";
         public const string Name = "HDT Plug-In Template";
-        public const string Description = @"A Simple HDT Plug-in Project Template to help jump start your own creations.";
+        public const string Description = @"A Simple Hearthstone Deck Tracker Plug-In Project Template to help jump start your own creations.";
         public const string Language = "en-US";
-        public const string Version = "0.7.0";
+        public const string Version = "0.7.2";
         public const string Author = "High Falootin Technology Corporation";
         public const string Tags = "C#, XAML, Hearthstone Deck Tracker, HDT,";
     }
