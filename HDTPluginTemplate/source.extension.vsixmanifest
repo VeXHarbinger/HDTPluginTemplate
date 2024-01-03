@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="HDTPluginTemplate.df4363e5-555c-412f-ac91-d729485bb5b0" Version="0.7.2" Language="en-US" Publisher="High Falootin Technology Corporation" />
+        <Identity Id="HDTPluginTemplate.df4363e5-555c-412f-ac91-d729485bb5b0" Version="0.7.3" Language="en-US" Publisher="High Falootin Technology Corporation" />
         <DisplayName>HDT Plug-In Template</DisplayName>
         <Description xml:space="preserve">A Simple Hearthstone Deck Tracker Plug-In Project Template to help jump start your own creations.</Description>
         <MoreInfo>https://github.com/VeXHarbinger/HDTPluginTemplate</MoreInfo>
