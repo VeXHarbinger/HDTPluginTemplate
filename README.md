@@ -23,7 +23,7 @@ The example functionality shows the card name and artist name when you mouse ove
   * Copy them to the lib folder  
   * Verify the project reference versions  
 * Set Plug-in Assembly Version  
-* Press Ctrl+w,t to see the ToDo list.  Make sure to delete any example functionality you don't want to keep  
+* Press `Ctrl+W,T` to see the ToDo list.  Make sure to delete any example functionality you don't want to keep  
 
 ![Versions](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/LibVersioning.jpg "Checking Versions")
 
@@ -40,8 +40,8 @@ The example functionality shows the card name and artist name when you mouse ove
 
 ## Debugging 
 
-You can attach your VS debugger to a running HDT session by pressing  Ctrl+Alt+P, then select HearthstoneDeckTracker from the list of running processes.  
-You can press Shift-Alt-P to reattach to the process after the first debugging session to skip the selection window.  
+You can attach your VS debugger to a running HDT session by pressing  `Ctrl+Alt+P`, then select HearthstoneDeckTracker from the list of running processes.  
+You can press `Shift+Alt+P` to reattach to the process after the first debugging session to skip the selection window.  
 
 ![Attach To Process](https://github.com/VeXHarbinger/HDTPluginTemplate/blob/master/Images/attachToProcess.jpg "Attach To Process")  
 
