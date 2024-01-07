@@ -1,3 +1,8 @@
+# *Important Preface!!!*  
+If you want to use the template, it's easier to get it on the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=HFTC.HDT-PluginTemplate-HFTC).  
+This project builds the VSIX extension that installs the template and will alert you of updates.  
+You can of course clone the repository, and I'll be adding the TemplateProjectProject to Git just as soon as I refine the build process.  
+
 # Purpose
 
 This project should help jump start your development of your own plug-in for the [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)  
